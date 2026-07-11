@@ -1,0 +1,61 @@
+[
+  {
+    "scheme_id": "css-college",
+    "name": "Central Sector Scheme of Scholarship (CSS) for College and University Students",
+    "ministry": "Ministry of Education",
+    "category": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+    "education_level": ["undergraduate", "postgraduate"],
+    "income_limit_inr": 800000,
+    "gender": "any",
+    "states": ["ALL"],
+    "benefit": "INR 10,000/year (UG), INR 20,000/year (PG)",
+    "deadline": "31 October (varies by year, check NSP)",
+    "apply_link": "https://scholarships.gov.in",
+    "documents_required": ["Class 12 marksheet", "Income certificate", "Aadhaar-linked bank account", "Admission proof"],
+    "description": "For meritorious students from all categories including General who scored above the 80th percentile in Class 12 boards and are pursuing regular undergraduate/postgraduate courses at a recognized institution. Family income must be below INR 8 lakh per year."
+  },
+  {
+    "scheme_id": "nmmss",
+    "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+    "ministry": "Ministry of Education",
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "education_level": ["class9", "class10", "class11", "class12"],
+    "income_limit_inr": 150000,
+    "gender": "any",
+    "states": ["ALL"],
+    "benefit": "INR 12,000/year (INR 1,000/month)",
+    "deadline": "Varies by state, typically October-November",
+    "apply_link": "https://scholarships.gov.in",
+    "documents_required": ["Class 8 marksheet", "Income certificate", "Aadhaar-linked bank account"],
+    "description": "For students studying Class 9 through 12 in government, government-aided, or local body schools. Requires passing a selection test in most states, and family income must not exceed INR 1.5 lakh per year."
+  },
+  {
+    "scheme_id": "cbse-single-girl-child",
+    "name": "CBSE Merit Scholarship Scheme for Single Girl Child",
+    "ministry": "CBSE",
+    "category": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+    "education_level": ["class11", "class12"],
+    "gender": "female",
+    "states": ["ALL"],
+    "benefit": "INR 500/month for 2 years (Class 11-12)",
+    "deadline": "Varies by year, check CBSE website",
+    "apply_link": "https://scholarships.gov.in",
+    "documents_required": ["Class 10 marksheet (min 60%)", "Single girl child affidavit", "School enrollment proof"],
+    "description": "For girls who are the only child of their parents, scored at least 60% in Class 10 CBSE boards, and are continuing into Class 11-12. No family income ceiling."
+  },
+  {
+    "scheme_id": "ishan-uday",
+    "name": "Ishan Uday Special Scholarship Scheme for North-Eastern Region Students",
+    "ministry": "Ministry of Education",
+    "category": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+    "education_level": ["undergraduate"],
+    "income_limit_inr": 450000,
+    "gender": "any",
+    "states": ["Assam", "Arunachal Pradesh", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Sikkim", "Tripura"],
+    "benefit": "Up to INR 12,000/year",
+    "deadline": "31 October (varies by year, check NSP)",
+    "apply_link": "https://scholarships.gov.in",
+    "documents_required": ["Domicile certificate (North-East state)", "Income certificate", "Admission proof", "Aadhaar-linked bank account"],
+    "description": "For students from the eight North-Eastern states pursuing undergraduate studies at institutions across India, with family income up to INR 4.5 lakh per year."
+  }
+]
