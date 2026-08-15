@@ -99,6 +99,11 @@ if __name__ == "__main__":
         scheme_links = json.load(f)
 
     results = []
+
+    def save_progress():
+        with open("scraped_schemes_extracted.json", "w") as f:
+            json.dump(results, f, indent=2)
+
     for i, item in enumerate(scheme_links):
         if not item.get("guideline_pdf") or item["guideline_pdf"] == "null" or "null" in item["guideline_pdf"]:
             print(f"[{i+1}/{len(scheme_links)}] Skipping (no valid PDF link): {item['name']}")
@@ -115,10 +120,8 @@ if __name__ == "__main__":
             data["source_pdf"] = item["guideline_pdf"]
             results.append(data)
             print(f"   -> extracted OK ({data.get('scheme_id')})")
+            save_progress()  # write to disk after EVERY success, not just at the end
         time.sleep(2)
-
-    with open("scraped_schemes_extracted.json", "w") as f:
-        json.dump(results, f, indent=2)
 
     print(f"\nDone. {len(results)}/{len(scheme_links)} schemes extracted.")
     print("Saved to scraped_schemes_extracted.json — REVIEW THIS before merging into schemes.json.")
