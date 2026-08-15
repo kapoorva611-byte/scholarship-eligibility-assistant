@@ -1,4 +1,7 @@
 venv/
 __pycache__/
 .env
+chroma_data/
+scraped_scheme_links.json
+scraped_schemes_extracted.json
 *.pyc
