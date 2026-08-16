@@ -3,9 +3,7 @@ from chromadb.utils import embedding_functions
 
 client = chromadb.PersistentClient(path="./chroma_data")
 
-embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name="all-MiniLM-L6-v2"
-)
+embedding_fn = embedding_functions.DefaultEmbeddingFunction()
 
 collection = client.get_or_create_collection(
     name="scholarship_schemes",
